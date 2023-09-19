@@ -1,0 +1,34 @@
+﻿program з30;
+var x: integer;
+begin
+  writeln('Введите число');
+  readln(x);
+  if x = 1 then writeln('I');
+  if x = 2 then writeln('II');
+  if x = 3 then writeln('III');
+  if x = 4 then writeln('IV');
+  if x = 5 then writeln('V');
+  if x = 6 then writeln('VI');
+  if x = 7 then writeln('VII');
+  if x = 8 then writeln('VIII');
+  if x = 9 then writeln('IX');
+  if x div 10 = 1 then write('X');
+  if x div 10 = 2 then write('XX');
+  if x div 10 = 3 then write('XXX');
+  if x div 10 = 4 then write('XL');
+  if x div 10 = 5 then write('L');
+  if x div 10 = 6 then write('LX');
+  if x div 10 = 7 then write('LXX');
+  if x div 10 = 8 then write('LXXX');
+  if x div 10 = 9 then write('XC');
+  if x mod 10 = 1 then writeln('I');
+  if x mod 10 = 2 then writeln('II');
+  if x mod 10 = 3 then writeln('III');
+  if x mod 10 = 4 then writeln('IV');
+  if x mod 10 = 5 then writeln('V');
+  if x mod 10 = 6 then writeln('VI');
+  if x mod 10 = 7 then writeln('VII');
+  if x mod 10 = 8 then writeln('VIII');
+  if x mod 10 = 9 then writeln('IX');
+  if x = 100 then writeln('C');
+end.
